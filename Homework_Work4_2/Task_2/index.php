@@ -9,10 +9,8 @@
     <form method="post">
         შეიყვანეთ სტრიქონების რაოდენობა: <input type="number" name="row"><br><br>
         შეიყვანეთ სვეტების რაოდენობა: <input type="number" name="col"> <br><br>
-        
         <input type="submit" name="send" value="Go">
     </form>
-
     <?php 
         if(isset($_POST["send"]))
         {
